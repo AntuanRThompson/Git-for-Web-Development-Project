@@ -4,43 +4,86 @@ https://codepen.io/ARThompson/pen/mdJxGdm?editors=1100
 //Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
 
     1. What is Semantic HTML? 
-    2. What is HTML used for? 
+    // Semantic HTML is used to give meaning and more defined structure, and also so it is more.
+    2. What is HTML used for?
+    // It is used to mark up the web content and give it format and meaning. 
     3. What is an attribute and where do we put it? 
+    // An attribute is a thing that gives the element behahior. It also gives additional information about the element. We put them in the tag with the element.
     4. What is the h1 tag used for? How many times should I use it on a page?
+    // The H1 tag is a heading tag that we use for titles and the main heading of the html content. So, in that we typically use it only once.
     5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
+    // Two tags that have required attributes are: the <a> tag and the <img> tag.
+    6. What do we put in the head of our HTML document?
+    //  We put meta information like the title in the head of our HTML document.
     7. What is an id? 
+    // The id is a attribute that specifies a unique id for an HTML element.
     8. What elements can I add an id to? 
-    9. How many times can I use the same id on a page? 
+    // You can add an id to any element, but it can only be specific to that particular element.
+    9. How many times can I use the same id on a page?
+    // You can only use the same id once. 
     10. What is a class? 
-    11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
+    // The class attribute is used to define equal styles for elements with the same class name.
+    11. What elements can I add a class to?
+    //  You can add the class attribute to any element.
+    12. How many times can I use the same class on a page?
+    // You can use as many as needed for definition in styling.       
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute used for? 
+    //  We can get it to open in a new tab by adding a "href" attribute.
+    14. What is the alt attribute used for?
+    // It is used to add a discription to the image so that it has information about the image even if it doesnt load. 
     15. How do I reference an id?
-    16. What is the difference between a section and a div
+    // You referene an id by using the "#".
+    16. What is the difference between a section and a div?
+    // A <div> is an example of a non-semantic element, and a section is an example of semantic elements, which add clear definition of its content. 
     17. What is CSS used for? 
+    // CSS is a language used to describe the style of an HTML document.
     18. How to we select an element? Example - every h2 on the page
+    // h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    // Difference is classes classify a group of elements/ content and an id is element specific. 
+    // Examples: <section class="first-Section"></section> <nav id="header-Nav"></nav>
     20. How do we select classes in CSS?
+    // By using ".class"
     21. How do we select a p element with a single class of “human””?
+    // By using ".human".
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
+    // div links .sidebar{}
     24. What is a pseudo selector?
+    // "Pseudo-selectors" is an umbrella term used to cover both kinds of selectors (or really any selector that begins with at least one : ), but it is itself meaningless.
     25. What do we use the change the spacing between lines?
+    // By utilizing the "line-height" attribute.
     26. What do we use to change the spacing between letters?
+    // By utilizing the "letter-spacing" attribute.
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    // By utilizing text-transform: Capitalize, lowercase, uppercase. 
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
+    // div {
+        border: 1-x dotted black;
+    }
+    29. How do I select everything on the page?
+    // By utilizing "*{}" 
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+    // "/*...*/
+    31. How do I find out what file I am in, when I am using the command line?
+    // Utilizing the "ls" command. 
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+    // Utilizing the "ls" command.
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+    // By utilizing the rm command. And we must be careful because it will delete the file forever, never to be retrieved again. 
+    34. Why should I use version control?
+    // To enhance collaborative efforts to create the desired product. 
     35. How often should I commit to github?
+    // We should commit as often as possible so that we can manages any and all changes in the most efficient way possible depending on the circumstances.
     36. What is the command we would use to push our repo up to github? 
+    // The command is "git push".
     37. Walk me through Lambda's git flow. 
-
+    // Lambda's git flow is to:
+    // Create, or fork an already created project. Then, adding a collaborator.
+    // Cloning the project into our own local network, and system via gitbash. 
+    // Branching the project so that we may contain and so that we may be able to make the necessary changes on our personal end.
+    // Add and Commit all changes so that we may identify, log, and access these areas or changes whenever need be.
+    // Then pushing it back to github for assessment, and merging of the altered branch to the master copy of the project for desired results, indicated thru order or pull requests.
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
